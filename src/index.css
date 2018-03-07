@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100vh;
+  color: white;
+  font-size: 20px;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.credit-card {
+  height: 250px;
+  width:411px;
+  border: 1px solid #0437A5;
+  border-radius:21px;
+
+  background-color: #1846A7;
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+  background-size: 80px;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin: 10px;
+  background-image: url("chase.png");
+}
+
+.logo {
+  position: absolute;
+  margin-top: 86px;
+  margin-left: 77px;
+  height: 100px;
+  width: 360px;
+  background-size:254px 43px;
+  background-image: url('chaselogo.png');
+  background-repeat: no-repeat;
+}
+.visa{
+  position: absolute;
+      margin-top: -3px;
+      margin-left: 284px;
+      height: 47px;
+      width: 360px;
+      background-size: 109px 25px;
+      background-image: url(/static/media/visa.34f2b378.png);
+      background-repeat: no-repeat;
+}
+.bank-name {
+
+  text-transform: uppercase;
+  position: relative;
+  font-size: 30px;
+  margin-top: 25px;
+  text-align: end;
+  margin-right: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.card-number {
+  text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
+  letter-spacing: 1px;
+  margin-top: 70px;
+  font-size: 28px;
+  text-align: center;
+}
+
+.cv2-code {
+  font-size: 13px;
+  margin-left: 40px;
+}
+
+.valid {
+
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-top: -10px;
+  text-align: end;
+  margin-right: 60px;
+}
+
+.expiration-date {
+  font-size: 20px;
+}
+
+.owner-name {
+  letter-spacing: -1px;
+      text-transform: uppercase;
+      margin-left: 38px;
+      position: relative;
+      bottom: 1px;
+      font-size: 18px;
+
+}
